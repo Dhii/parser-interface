@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "61534ee03bccdf456bdc89bdfc1794ba",
+    "content-hash": "e4d9068cfa798adbd354d231aaf35060",
     "packages": [
         {
             "name": "dhii/data-hierarchy-interface",
@@ -2191,6 +2191,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dhii/io-resource-interface": 20,
+        "dhii/exception-interface": 20,
         "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": true,
