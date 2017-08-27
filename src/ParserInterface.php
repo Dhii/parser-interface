@@ -3,6 +3,8 @@
 namespace Dhii\Parser;
 
 use Dhii\Io\Resource\ReadableResourceInterface;
+use Dhii\Parser\Exception\CouldNotParseExceptionInterface;
+use Dhii\Parser\Exception\ParserExceptionInterface;
 
 /**
  * Something that can parse a hierarchy representation into a hierarchy.
@@ -34,6 +36,9 @@ interface ParserInterface
      * @since [*next-version*]
      *
      * @param ReadableResourceInterface $source The source of data to parse.
+     *
+     * @throws CouldNotParseExceptionInterface If cannot parse.
+     * @throws ParserExceptionInterface        If a non-parsing problem occurs.
      *
      * @return ChildrenAwareInterface The root node of the hierarchy.
      */
