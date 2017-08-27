@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "404902a7267b9a3b37ed2474b240fcd1",
+    "content-hash": "9045abee8686a558d454cbc808f64293",
     "packages": [
         {
             "name": "dhii/exception-interface",
@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/io-resource-interface.git",
-                "reference": "67b7872baa488af7c9f507c2cdfebb74be8167c5"
+                "reference": "0610839d073ecac64c239a25911c5dc64314ffc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/io-resource-interface/zipball/67b7872baa488af7c9f507c2cdfebb74be8167c5",
-                "reference": "67b7872baa488af7c9f507c2cdfebb74be8167c5",
+                "url": "https://api.github.com/repos/Dhii/io-resource-interface/zipball/0610839d073ecac64c239a25911c5dc64314ffc6",
+                "reference": "0610839d073ecac64c239a25911c5dc64314ffc6",
                 "shasum": ""
             },
             "require": {
@@ -69,7 +69,7 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "<=0.3.2",
-                "dhii/php-cs-fixer-config": "^0.1",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
                 "phpunit/phpunit": "^4.8",
                 "ptrofimov/xpmock": "^1.1"
             },
@@ -90,7 +90,7 @@
                 }
             ],
             "description": "Interfaces for resource interoperability",
-            "time": "2017-08-27 14:13:02"
+            "time": "2017-08-27 14:20:22"
         },
         {
             "name": "dhii/stringable-interface",
@@ -196,24 +196,23 @@
         },
         {
             "name": "dhii/php-cs-fixer-config",
-            "version": "v0.1",
+            "version": "dev-php-5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/php-cs-fixer-config.git",
-                "reference": "fc2f45d1f822bff7d871ba3c4c9750ad66f5ab0c"
+                "reference": "ee3cc6c906a1aa4dca2bcbfcfef684dbd1ebb8ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/php-cs-fixer-config/zipball/fc2f45d1f822bff7d871ba3c4c9750ad66f5ab0c",
-                "reference": "fc2f45d1f822bff7d871ba3c4c9750ad66f5ab0c",
+                "url": "https://api.github.com/repos/Dhii/php-cs-fixer-config/zipball/ee3cc6c906a1aa4dca2bcbfcfef684dbd1ebb8ca",
+                "reference": "ee3cc6c906a1aa4dca2bcbfcfef684dbd1ebb8ca",
                 "shasum": ""
             },
             "require": {
                 "friendsofphp/php-cs-fixer": ">=1.11 <1.12",
-                "php": "^5.4 | ^7.0"
+                "php": "^5.3 | ^7.0"
             },
             "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
                 "phpunit/phpunit": "^4.8"
             },
             "type": "library",
@@ -233,7 +232,7 @@
                 }
             ],
             "description": "A default PHP CS Fixer config implementation",
-            "time": "2017-07-23T12:53:27+00:00"
+            "time": "2016-09-03T14:45:03+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2149,7 +2148,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "dhii/io-resource-interface": 20
+        "dhii/io-resource-interface": 20,
+        "dhii/php-cs-fixer-config": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
